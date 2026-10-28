@@ -1,0 +1,2 @@
+# Reflection Document
+In this assignment, I learned how to securely containerize a Python application using a slim Docker base image and a non-root user (`myuser`). The biggest challenge was managing file permissions for directories like logs, which was resolved using the `chown` command in the Dockerfile. Overall, Docker made packaging dependencies and running the app consistently very straightforward.
